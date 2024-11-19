@@ -84,22 +84,18 @@ header {
   position: relative;
 }
 
-.content p {
+.qoute_container {
   border: solid red;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
 }
 
-/* .content svg {
+.svg-layer-1 {
   position: relative;
   border: solid green;
   display: flex;
   flex-direction: row;
   rotate: -180deg;
-} */
-
-.svg-mark1 {
-  flex-direction: row;
-  border: red;
 }
