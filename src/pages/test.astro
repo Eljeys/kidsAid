@@ -1,5 +1,7 @@
 ---
 import "../styles/globalStyle.css";
+import "../components/Card.astro";
+import Card from "../components/Card.astro";
 ---
 
 <html lang="en">
@@ -111,12 +113,17 @@ import "../styles/globalStyle.css";
             </div>
           </div>
         </div>
+        <Card
+          header="Hanne Solskin"
+          tekst1="Hardwell, født Robbert van de Corput den 7. januar 1988 i Holland."
+          tekst2="Hardwell har modtaget adskille priser, herunder edn prestigefylde title som verdens bedste DJ"
+          tekst3="Hardwell har været en hovedattraktion på store musikfestivaler som Tomorrowland."
+        />
         <div class="swiper-slide"></div>
       </div>
     </main>
 
     <style>
-
       @keyframes fadeIn {
         from {
           opacity: 0;
