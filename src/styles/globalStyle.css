@@ -89,7 +89,7 @@ svg {
 }
 
 .qoute_container {
-  margin-top: 55%;
+  margin-top: 65%;
   /* background-color: var(--text-bg-clr); */
   /* border: solid red; */
   display: flex;
@@ -98,11 +98,6 @@ svg {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-}
-.quote {
-  font-size: 2.5rem;
-  color: rgb(255, 15, 15);
-  font-weight: bold;
 }
 
 #Layer-2,
@@ -277,4 +272,21 @@ p {
 .content3 {
   display: flex;
   justify-content: center;
+  z-index: 10;
+}
+
+.content3 img {
+  width: 100%; /* Matcher bredden af flip-card */
+  height: 100%; /* Matcher højden af flip-card */
+  object-fit: fill; /* Sørger for, at billedet bevarer proportioner */
+  position: absolute; /* Placerer billedet i samme lag som kortets forside */
+  top: 0;
+  left: 0;
+}
+
+.head p {
+  padding-left: 25%;
+  font-size: 2rem;
+  color: #ffffff;
+  text-align: center;
 }

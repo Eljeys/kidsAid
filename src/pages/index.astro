@@ -193,23 +193,31 @@ import "../styles/globalStyle.css";
   <div class="swiper-slide">
     <!--! slider 3 -->
     <div class="content content3">
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <div class="information" data-swiper-parallax="-200%">
-        <div class="head" data-swiper-parallax="-200%">
-          <h1 class="head_text head_text3"></h1>
-        </div>
+      <Card
+        header="Torben Tandløs"
+        tekst1="Jeg gør børn glade"
+        tekst2="med magi og tryl"
+      >
+        <img src="/public/img/2.jpg" alt="" />
+      </Card>
+      <Card
+        header="Jens Lyn "
+        tekst1="jeg laver korte shows med kort :)"
+        tekst2="Magien er smilets navn"
+      >
+        <img src="/public/img/3.jpg" alt="" /></Card
+      >
+      <Card><img src="/public/img/12.webp" alt="" /></Card>
+      <Card><img src="/public/img/2.jpg" alt="" /></Card>
+      <div class="head" data-swiper-parallax="-200%">
+        <h1 class="head_text head_text3"></h1>
       </div>
     </div>
-    <!-- Slider 4 -->
-    <div class="content content4">
-      <div class="information" data-swiper-parallax="-200%">
-        <div class="head" data-swiper-parallax="-200%">
-          <h1 class="head_text head_text3"></h1>
-        </div>
-      </div>
+  </div>
+  <!-- Slider 4 -->
+  <div class="content content4">
+    <div class="head" data-swiper-parallax="-200%">
+      <h1 class="head_text head_text3"></h1>
     </div>
   </div>
 </html>
@@ -231,6 +239,19 @@ import "../styles/globalStyle.css";
     width: 100vw;
     height: 100vh;
     background-image: url(/public/img/9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative;
+  }
+  .content4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/public/img/Hospital.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
