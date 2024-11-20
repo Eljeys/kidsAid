@@ -273,3 +273,8 @@ p {
 .head p {
   color: #1e1d1d;
 }
+
+.content3 {
+  display: flex;
+  justify-content: center;
+}
