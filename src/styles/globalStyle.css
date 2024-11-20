@@ -144,6 +144,9 @@ video {
   grid-column: 1 / -1;
   border: solid green;
   transform: scaleX(-1);
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
 }
 .header_content {
   border: solid orange;
@@ -229,13 +232,6 @@ video {
   }
 }
 
-.information {
-  text-align: center;
-  color: var(--Icon-background-crl);
-  font-size: 1.5rem;
-  padding: 2rem;
-}
-
 h1,
 p {
   margin-bottom: 1rem;
@@ -245,4 +241,25 @@ p {
 /* Parallax-animationer */
 [data-swiper-parallax] {
   transition: transform 0.6s ease, opacity 0.6s ease;
+}
+
+.information {
+  color: var(--Icon-background-crl);
+  font-size: 1.5rem;
+  padding: 2rem;
+}
+
+.information h2 {
+  color: var(--Border-clr);
+}
+
+.information p {
+  color: #1e1d1d;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  margin: 1rem 0;
+}
+
+.head p {
+  color: #1e1d1d;
 }
