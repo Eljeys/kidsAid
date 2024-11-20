@@ -70,8 +70,7 @@ svg {
 .tagline {
   font-size: 1.5rem;
   font-weight: bold;
-  padding-bottom: 6rem;
-  bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 .content {
@@ -121,12 +120,39 @@ svg {
 }
 
 .content2 {
-  /* background-image: url(/public/img/7.png); */
-  background-color: #c10000;
+  background-image: url(/public/img/12.png);
+  /* background-color: #c10000; */
   width: 100vw;
   height: 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.video {
+  display: grid;
+  z-index: 1;
+  grid-template-columns: 1fr 1fr;
+  border: solid red;
+}
+video {
+  display: grid;
+  grid-column: 1 / -1;
+  border: solid green;
+  transform: scaleX(-1);
+}
+.header_content {
+  border: solid orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 2rem;
+  text-align: left;
+}
+
+.tagline {
+  border: solid green;
+  margin-bottom: 0;
 }
 
 .swiper-button-next:after,
